@@ -3,18 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>임직원 관리</title>
+    <!-- 검색 엔진에 의해 검색되는 단어를 지정 -->
+    <meta name="Keywords" content="페스트캠퍼스" />
+    <!-- 검색 결과에 표시되는 문자를 지정 -->
+    <meta name="Description" content="페스트캠퍼스" />
+    <!-- 문자 코드의 종류 설정 -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- CSS -->
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/font.css">
     <link rel="stylesheet" href="./styles/main.css">
+    <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/8d5fe92c5f.js" crossorigin="anonymous"></script>
+    <!-- title -->
+    <title>임직원 관리</title>
 </head>
 <body>
     <div class="wrap">
         <main>
             <section class="left_side">
-                <div class="side_top">
-                    <img src="./assets/images/person.png" alt="프로필 사진">
+                <section class="side_top">
+                    <img class="side_profile" src="./assets/images/person.png" alt="프로필 사진">
                     <div class="side_top_p">
                         <p class="side_top_p1">
                             <span>yeongmin</span>
@@ -26,20 +35,24 @@
                             <span>VIP</span>
                         </p>
                     </div>
-                </div>
-                <div class="side_bottom">
-                    <div class="side_bottom_p">
+                </section>
+                <section class="side_bottom">
+                    <section class="side_bottom_sub_section">
                         <p>
                             <i class="fa-solid fa-gear fa-lg" style="color: #232323;"></i>
-                            <span>내 정보 설정</span>
+                            <a href="" title="내 정보 설정">내 정보 설정</a>
                         </p>
                         <p>
                             <i class="fa-solid fa-arrow-right-from-bracket fa-lg" style="color: #232323;"></i>
-                            <span>로그아웃</span>
+                            <a href="" title="로그아웃">로그아웃</a>
                         </p>
+                    </section>
+                    <div class="company">
+                        <img class="fastcampus" src="./assets/icons/fastcampus.png" alt="fastcampus">
+                        <img class="companyx" src="./assets/icons/close.png" alt="x">
+                        <img class="yanolja" src="./assets/icons/yanolja.png" alt="yanolja">
                     </div>
-                    <img src="./assets/icons/company.png" alt="">
-                </div>
+                </section>
             </section>
         </main>
     </div>
