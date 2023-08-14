@@ -139,6 +139,14 @@ main {
     border-radius: 5px
 }
 
+.swal2-title {
+    font-family: 'NotoSansKR-Bold';
+}
+
+.swal2-html-container {
+    font-family: 'NotoSansKR-Medium';
+}
+
 /* searchbar */
 .searchbar {
     width: 220px;
