@@ -3,26 +3,6 @@
         width: 96%;
         transition: all 0.5s ease-in-out;
     }
-
-    .left_side {
-        transition: all 0.5s ease-in-out;
-    }
-
-    .side_top_p {
-        transition: all 0.5s ease-in-out;
-    }
-
-    .side_top_p1 span:nth-child(2) {
-        transition: all 0.5s ease-in-out;
-    }
-
-    .company {
-        transition: all 0.5s ease-in-out;
-    }
-
-    .side_bottom {
-        transition: all 0.5s ease-in-out;
-    }
 }
 
 @media screen and (max-width: 1280px) {
@@ -99,12 +79,6 @@
         width: 165px;
         height: 20px;
         font-size: 12px;
-        transition: all 0.5s ease-in-out;
-    }
-
-    .searchbar img {
-        width: 20px;
-        height: 20px;
         transition: all 0.5s ease-in-out;
     }
 }
@@ -186,13 +160,12 @@ main {
     font-family: 'NotoSansKR-Medium';
 }
 
-.searchbar input::placeholder {
-    /* text-align: center; */
-}
-
-.searchbar img {
+.search_button {
     width: 25px;
     height: 25px;
+    border: none;
+    background-color: #fff;
+    margin-top: 3px;
 }
 
 /* main_list */
@@ -217,7 +190,7 @@ main {
     display: flex;
     align-items: center;
     background-color: #FFF;
-    border: 1px solid #707070;
+    border: 1px solid #B2B2B2;
     border-radius: 7px;
 }
 
