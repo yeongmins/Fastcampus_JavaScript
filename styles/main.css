@@ -54,7 +54,6 @@ main {
     align-items: center;
     border: 1px solid #323232;
     border-radius: 5px;
-    font-family: 'NotoSansKR-Medium';
 }
 
 .searchbar input {
@@ -64,6 +63,8 @@ main {
     outline: none;
     text-align: center;
     margin-left: 3px;
+    font-size: 13px;
+    font-family: 'NotoSansKR-Medium';
 }
 
 .searchbar input::placeholder {
