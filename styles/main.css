@@ -1,0 +1,76 @@
+main {
+    width: 1000px;
+    margin: 70px 0 0 40px;
+}
+
+.wrap {
+    display: flex;
+}
+
+/* main_top */
+.main_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_text {
+    font-size: 25px;
+    font-family: "NotoSansKR-Bold";
+}
+
+/* main_nav */
+.main_nav {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Register {
+    width: 110px;
+    height: 45px;
+    font-family: 'NotoSansKR-Bold';
+    font-size: 15px;
+    color: #FFF;
+    background-color: #FF3478;
+    border: none;
+}
+
+.Delete {
+    width: 110px;
+    height: 45px;
+    font-family: 'NotoSansKR-Bold';
+    font-size: 15px;
+    color: #FFF;
+    background-color: #007ffe;
+    border: none;
+}
+
+/* searchbar */
+.searchbar {
+    width: 220px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #323232;
+    border-radius: 5px;
+    font-family: 'NotoSansKR-Medium';
+}
+
+.searchbar input {
+    width: 180px;
+    height: 30px;
+    border: none;
+    outline: none;
+    text-align: center;
+    margin-left: 3px;
+}
+
+.searchbar input::placeholder {
+    /* text-align: center; */
+}
+
+.searchbar img {
+    width: 25px;
+    height: 25px;
+}

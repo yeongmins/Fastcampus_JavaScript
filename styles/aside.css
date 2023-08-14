@@ -54,8 +54,8 @@
 /* side_bottom */
 .side_bottom {
     padding: 0 0 2.5rem 2.5rem;
-    font-family: NotoSansKR-Medium;
     font-size: 15px;
+    font-family: "NotoSansKR-Bold";
 }
 
 .side_bottom p {
