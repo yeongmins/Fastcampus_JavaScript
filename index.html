@@ -14,8 +14,12 @@
     <link rel="stylesheet" href="./styles/font.css">
     <link rel="stylesheet" href="./styles/aside.css">
     <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/modal.css">
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/8d5fe92c5f.js" crossorigin="anonymous"></script>
+    <!-- SweetAlert2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.17/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.17/dist/sweetalert2.all.min.js"></script>
     <!-- title -->
     <title>임직원 관리</title>
 </head>
@@ -63,13 +67,45 @@
             </section>
             <section class="main_nav">
                 <div class="nav_button">
-                    <button class="register">임직원 등록</button>
-                    <button class="delete">임직원 삭제</button>
+                    <button class="register" id="register_button">임직원 등록</button>
+                    <button class="delete" id="delete_button">임직원 삭제</button>
                 </div>
                 <form class="searchbar" action="#">
                     <input type="text" placeholder="이름 또는 이메일로 검색하기">
-                    <img src="./assets/icons/glass.png" alt="돋보기">
+                    <button class="search_button">
+                        <i class="fa-solid fa-magnifying-glass fa-xl" style="color: #232323;"></i>
+                    </button>
                 </form>
+            </section>
+            <section class="modal" id="register">
+                <div class="modal_content">
+                    <div class="modal_wrap">
+                        <section class="modal_top">
+                            <h2 class="modal_main_text">임직원 등록</h2>
+                            <button class="close" id="close_button">
+                                <i class="fa-solid fa-xmark fa-2xl" style="color: #232323;"></i>
+                            </button>
+                        </section>
+                        <section class="modal_input_section">
+                            <form class="modal_form" action="#">
+                                <input class="modal_form_input" type="text" name="name" placeholder="이름">
+                                <input class="modal_form_input" type="email" name="email" placeholder="이메일">
+                                <input class="modal_form_input" type="tel" name="phone" placeholder="전화번호">
+                                <input class="modal_form_input" type="text" name="rank" placeholder="구분">
+                                <div class="camera">
+                                    <span>이미지를 등록하세요</span>
+                                    <div class="camera_container">
+                                        <input class="camera_input" type="file" name="file" id="file_input">
+                                        <label for="file_input">
+                                            <i class="fa-regular fa-image fa-2xl" style="color: #232323;"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                            </form>
+                        </section>
+                        <!-- <button class="register" id="modal_register">임직원 등록</button> -->
+                    </div>
+                </div>
             </section>
             <section class="main_list">
                 <div class="list_top">
@@ -87,5 +123,10 @@
             </section>
         </main>
     </div>
+    <!-- JavaScript -->
+    <!-- modal -->
+    <script src="./assets/javascript/modal.js"></script>
+    <!-- delete -->
+    <script src="./assets/javascript/delete.js"></script>
 </body>
 </html>
