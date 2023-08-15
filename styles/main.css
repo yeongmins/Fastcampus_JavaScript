@@ -62,7 +62,7 @@
         transition: all 0.5s ease-in-out;
     }
 
-    .Delete {
+    .delete {
         width: 90px;
         height: 40px;
         font-size: 13px;
@@ -139,7 +139,7 @@ main {
     color: #FFF;
     background-color: #232323;
     border: none;
-    margin-left: 5px;
+    margin-left: 10px;
     border-radius: 5px
 }
 
@@ -215,7 +215,7 @@ main {
 }
 
 .list_wrap {
-    height: 5vh;
+    height: 45px;
     display: flex;
     align-items: center;
     background-color: #FFF;
