@@ -50,12 +50,20 @@
     background-color: #fff;
 }
 
+/* modal_container */
+.modal_container {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 /* modal_input */
 .modal_input_section {
-    margin-top: 40px;
-    width: 45%;
-    height: 40vh;
+    width: 42%;
+    height: 45vh;
     border: 1px solid #D2D2D2;
+    border-radius: 5px;
 }
 
 .modal_form {
@@ -67,7 +75,7 @@
 
 .modal_form_input {
     width: 80%;
-    height: 4vh;
+    height: 5vh;
     margin-top: 20px;
     border: none;
     outline: none;
@@ -106,4 +114,72 @@
 .camera label {
     border: none;
     background-color: #fff;
+}
+
+/* modal_view */
+.modal_view {
+    width: 53%;
+    height: 45vh;
+    border: 1px solid #D2D2D2;
+    border-radius: 5px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    font-family: 'NotoSansKR-Regular';
+}
+
+.view_img {
+    width: 50%;
+    height: 75%;
+    margin-left: 15px;
+}
+
+.view_text {
+    width: 42%;
+    height: 60%;
+}
+
+.view_text ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.view_text ul span:nth-child(1) {
+    width: 50px;
+    margin-left: 5px;
+    color: #808080;
+    font-size: 13px;
+    font-family: NotoSansKR-Medium;
+}
+
+.view_text li {
+    display: flex;
+    align-items: center;
+}
+
+.view_text ul span:nth-child(2) {
+    margin-left: 5px;
+    font-size: 11px;
+    font-family: Poppins-Light;
+}
+
+
+/* modal_submit */
+.modal_submit {
+    display: flex;
+    margin: 20px 30px 0 20px;
+    justify-content: flex-end;
+}
+
+.submit_button {
+    width: 110px;
+    height: 45px;
+    font-family: 'NotoSansKR-Bold';
+    font-size: 15px;
+    color: #FFF;
+    background-color: #FF3478;
+    border: none;
+    border-radius: 5px;
 }

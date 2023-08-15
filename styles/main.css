@@ -139,12 +139,22 @@ main {
     border-radius: 5px
 }
 
+/* swal */
 .swal2-title {
     font-family: 'NotoSansKR-Bold';
 }
 
 .swal2-html-container {
     font-family: 'NotoSansKR-Medium';
+}
+
+.swal2-styled.swal2-confirm {
+    font-family: 'NotoSansKR-Medium';
+}
+
+.swal2-styled.swal2-cancel {
+    font-family: 'NotoSansKR-Medium';
+    background-color: #232323;
 }
 
 /* searchbar */

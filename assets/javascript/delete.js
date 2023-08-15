@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
       Swal.fire(
         "체크박스 미선택",
         "삭제하려는 임직원을 선택하세요.",
-        "warning"
+        "warning",
       );
     }
   });

@@ -86,24 +86,51 @@
                                 <i class="fa-solid fa-xmark fa-2xl" style="color: #232323;"></i>
                             </button>
                         </section>
-                        <section class="modal_input_section">
-                            <form class="modal_form" action="#">
-                                <input class="modal_form_input" type="text" name="name" placeholder="이름">
-                                <input class="modal_form_input" type="email" name="email" placeholder="이메일">
-                                <input class="modal_form_input" type="tel" name="phone" placeholder="전화번호">
-                                <input class="modal_form_input" type="text" name="rank" placeholder="구분">
-                                <div class="camera">
-                                    <span>이미지를 등록하세요</span>
-                                    <div class="camera_container">
-                                        <input class="camera_input" type="file" name="file" id="file_input">
-                                        <label for="file_input">
-                                            <i class="fa-regular fa-image fa-2xl" style="color: #232323;"></i>
-                                        </label>
+                        <div class="modal_container">
+                            <section class="modal_input_section">
+                                <form class="modal_form" action="#">
+                                    <input class="modal_form_input" id="name_ID" type="text" name="name" placeholder="이름">
+                                    <input class="modal_form_input" id="email_ID" type="email" name="email" placeholder="이메일">
+                                    <input class="modal_form_input" id="phone_ID" type="tel" name="phone" placeholder="전화번호">
+                                    <input class="modal_form_input" id="rank_ID" type="text" name="rank" placeholder="구분">
+                                    <div class="camera">
+                                        <span>이미지를 등록하세요</span>
+                                        <div class="camera_container">
+                                            <input class="camera_input" type="file" name="file" id="file_input">
+                                            <label for="file_input">
+                                                <i class="fa-regular fa-image fa-2xl" style="color: #232323;"></i>
+                                            </label>
+                                        </div>
                                     </div>
+                                </form>
+                            </section>
+                            <section class="modal_view">
+                                <img id="view_img_ID" class="view_img" src="./assets/images/person.png" alt="이미지 첨부 보기">
+                                <div class="view_text">
+                                    <ul>
+                                        <li>
+                                            <span>이름</span>
+                                            <span id="name_text"></span>
+                                        </li>
+                                        <li>
+                                            <span>이메일</span>
+                                            <span id="email_text"></span>
+                                        </li>
+                                        <li>
+                                            <span>전화번호</span>
+                                            <span id="phone_text"></span>
+                                        </li>
+                                        <li>
+                                            <span>구분</span>
+                                            <span id="rank_text"></span>
+                                        </li>
+                                    </ul>
                                 </div>
-                            </form>
-                        </section>
-                        <!-- <button class="register" id="modal_register">임직원 등록</button> -->
+                            </section>
+                        </div>
+                    </div>
+                    <div class="modal_submit">
+                        <button class="submit_button" id="modal_register">임직원 등록</button>
                     </div>
                 </div>
             </section>
@@ -128,5 +155,7 @@
     <script src="./assets/javascript/modal.js"></script>
     <!-- delete -->
     <script src="./assets/javascript/delete.js"></script>
+    <!-- view -->
+    <script src="./assets/javascript/view.js"></script>
 </body>
 </html>
