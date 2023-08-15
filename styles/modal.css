@@ -132,6 +132,7 @@
     width: 50%;
     height: 75%;
     margin-left: 15px;
+    border-radius: 5px;
 }
 
 .view_text {
@@ -148,7 +149,7 @@
 
 .view_text ul span:nth-child(1) {
     width: 50px;
-    margin-left: 5px;
+    margin-left: 10px;
     color: #808080;
     font-size: 13px;
     font-family: NotoSansKR-Medium;
