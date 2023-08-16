@@ -230,13 +230,14 @@ main {
 }
 
 .list_top_name {
-    width: 100%;
+    width: 98%;
     height: 20px;
     padding-top: 3px;
     font-size: 15px;
     display: flex;
     justify-content: space-around;
     font-family: 'NotoSansKR-Medium';
+    margin-left: 40px;
 }
 
 .list_top_name span {

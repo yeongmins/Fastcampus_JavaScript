@@ -186,6 +186,10 @@
     border-radius: 5px;
 }
 
+.submit_button:hover {
+    background-color: #e02d69;
+}
+
 /* list_item */
 .list_item {
     width: 95%;
