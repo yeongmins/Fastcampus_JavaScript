@@ -176,6 +176,7 @@ dist
 # SvelteKit build / generate output
 .svelte-kit
 
+<<<<<<< HEAD
 ### Firebase ###
 .idea
 **/node_modules/*
@@ -186,4 +187,6 @@ dist
 .runtimeconfig.json
 .firebase/
 
+=======
+>>>>>>> parent of 365581b (Feat: firebase 연동)
 # End of https://www.toptal.com/developers/gitignore/api/node,macos
