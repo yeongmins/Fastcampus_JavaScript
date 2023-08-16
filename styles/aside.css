@@ -16,7 +16,8 @@
 
 .side_profile {
     width: 80px;
-    height: 80px;
+    height: 95px;
+    border-radius: 5px;
 }
 
 .side_top_p {
