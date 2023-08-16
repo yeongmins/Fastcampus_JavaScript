@@ -21,6 +21,7 @@ mypageFileInput.addEventListener("change", () => {
   }
 });
 
+
 // "mypage" 버튼 클릭 시 이벤트 리스너
 mypageButton.addEventListener("click", () => {
   // 각각의 필요한 요소들을 가져옴
@@ -55,6 +56,7 @@ mypageButton.addEventListener("click", () => {
   const myImgSrc = myImg.getAttribute("src");
   mypageViewImg.setAttribute("src", myImgSrc);
 
+  const mypageRegisterButton = document.getElementById("mypage_register");
   // "mypage_register" 버튼 클릭 시 이벤트 리스너
   mypageRegisterButton.addEventListener("click", () => {
     if (selectedFile) {
