@@ -177,11 +177,18 @@ dist
 .idea
 **/node_modules/*
 **/.firebaserc
+firebase.json
+firestore.indexes.json
+firestore.rules
+storage.rules
+public
 
 
 ### Firebase Patch ###
 .runtimeconfig.json
 .firebase/
+.github
+
 
 # 보안
 package.json
