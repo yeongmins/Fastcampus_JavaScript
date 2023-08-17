@@ -177,7 +177,7 @@ dist
 .idea
 **/node_modules/*
 **/.firebaserc
-firebase.js
+index.js
 firebase.json
 firestore.indexes.json
 firestore.rules
