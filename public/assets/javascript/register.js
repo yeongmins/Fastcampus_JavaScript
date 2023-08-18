@@ -44,9 +44,10 @@ document.getElementById("modal_register").addEventListener("click", function () 
   listInput.name = "list_checkbox"; 
   listItem.appendChild(listInput); 
   
-  // 리스트 아이템 내용을 감싸는 div 생성
-  const itemWrap = document.createElement("div");
+  // 리스트 아이템 내용을 감싸는 button 생성
+  const itemWrap = document.createElement("button");
   itemWrap.classList.add("item_wrap"); 
+  itemWrap.id = "item_wrap_button";
   
   // 이미지를 감싸는 div 생성
   const itemImg = document.createElement("div");
