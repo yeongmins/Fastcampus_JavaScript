@@ -53,6 +53,12 @@
 
 ***
 
+### ✏️ userflow
+
+![userflow](./public/assets/images/userflow.png)
+
+***
+
 ### 📝 아쉬운점 & 느낀점
 
 >   - 파이어베이스를 처음 사용했는데 연동이 너무 어려워서 DB 구현을 못했습니다.
