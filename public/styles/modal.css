@@ -79,6 +79,7 @@
     border: none;
     outline: none;
     border-bottom: 1px solid #ccc;
+    font-size: 12px;
     font-family: 'NotoSansKR-Medium';
 }
 
@@ -93,6 +94,7 @@
     font-size: 12px;
     font-family: 'NotoSansKR-Light';
     margin-right: 10px;
+    transition: all 0.5s ease-in-out;
 }
 
 .camera_container {
@@ -159,6 +161,7 @@
 
 .view_text ul span:nth-child(1) {
     width: 50px;
+    height: 17px;
     margin-left: 10px;
     color: #808080;
     font-size: 13px;
@@ -171,6 +174,7 @@
 }
 
 .view_text ul span:nth-child(2) {
+    height: 15px;
     margin-left: 10px;
     font-size: 11px;
     font-family: Poppins-Light;
@@ -220,6 +224,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    transition: all 0.5s ease-in-out;
 }
 
 .item_img {
@@ -233,11 +238,12 @@
     height: 100px;
     border-radius: 5px;
     margin-left: 10px;
+    transition: all 0.5s ease-in-out;
 }
 
 .item_wrap span {
     width: 20%;
-    height: 20px;
+    height: 22px;
     text-align: center;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -247,6 +253,7 @@
 .item_wrap span:nth-child(4) {
     font-size: 12px;
     padding-top: 3px;
+    transition: all 0.5s ease-in-out;
 }
 
 /* mypage */
